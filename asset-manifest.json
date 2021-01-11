@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Witcher-3-Showcase/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Witcher-3-Showcase/static/js/main.7da8f2d1.chunk.js",
+    "main.js.map": "/Witcher-3-Showcase/static/js/main.7da8f2d1.chunk.js.map",
+    "runtime-main.js": "/Witcher-3-Showcase/static/js/runtime-main.3a2d532f.js",
+    "runtime-main.js.map": "/Witcher-3-Showcase/static/js/runtime-main.3a2d532f.js.map",
+    "static/js/2.3bc9b980.chunk.js": "/Witcher-3-Showcase/static/js/2.3bc9b980.chunk.js",
+    "static/js/2.3bc9b980.chunk.js.map": "/Witcher-3-Showcase/static/js/2.3bc9b980.chunk.js.map",
+    "static/js/3.1a3b2662.chunk.js": "/Witcher-3-Showcase/static/js/3.1a3b2662.chunk.js",
+    "static/js/3.1a3b2662.chunk.js.map": "/Witcher-3-Showcase/static/js/3.1a3b2662.chunk.js.map",
+    "index.html": "/Witcher-3-Showcase/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Witcher-3-Showcase/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3bc9b980.chunk.js.LICENSE.txt": "/Witcher-3-Showcase/static/js/2.3bc9b980.chunk.js.LICENSE.txt",
+    "static/media/background.67764b17.png": "/Witcher-3-Showcase/static/media/background.67764b17.png",
+    "static/media/loader_empty.8731d3fc.svg": "/Witcher-3-Showcase/static/media/loader_empty.8731d3fc.svg",
+    "static/media/loader_full.5e5aca6c.svg": "/Witcher-3-Showcase/static/media/loader_full.5e5aca6c.svg",
+    "static/media/loader_partial_1.da1dca86.svg": "/Witcher-3-Showcase/static/media/loader_partial_1.da1dca86.svg",
+    "static/media/loader_partial_2.d4581469.svg": "/Witcher-3-Showcase/static/media/loader_partial_2.d4581469.svg",
+    "static/media/logo.6ce24c58.svg": "/Witcher-3-Showcase/static/media/logo.6ce24c58.svg",
+    "static/media/title.42f12a03.png": "/Witcher-3-Showcase/static/media/title.42f12a03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a2d532f.js",
+    "static/js/2.3bc9b980.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.7da8f2d1.chunk.js"
+  ]
+}
