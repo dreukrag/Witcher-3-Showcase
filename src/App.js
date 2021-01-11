@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <CssBaseline />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <PublicRoute path="/login">
             <Login />
