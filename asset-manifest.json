@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Witcher-3-Showcase/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/Witcher-3-Showcase/static/js/main.3455a33f.chunk.js",
-    "main.js.map": "/Witcher-3-Showcase/static/js/main.3455a33f.chunk.js.map",
+    "main.js": "/Witcher-3-Showcase/static/js/main.b2a2a8ec.chunk.js",
+    "main.js.map": "/Witcher-3-Showcase/static/js/main.b2a2a8ec.chunk.js.map",
     "runtime-main.js": "/Witcher-3-Showcase/static/js/runtime-main.a047ecf7.js",
     "runtime-main.js.map": "/Witcher-3-Showcase/static/js/runtime-main.a047ecf7.js.map",
     "static/js/2.83ed5908.chunk.js": "/Witcher-3-Showcase/static/js/2.83ed5908.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.a047ecf7.js",
     "static/js/2.83ed5908.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.3455a33f.chunk.js"
+    "static/js/main.b2a2a8ec.chunk.js"
   ]
 }
