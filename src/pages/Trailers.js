@@ -1,5 +1,11 @@
 import React, { useCallback, useEffect, useMemo } from "react";
-import { Button, makeStyles } from "@material-ui/core";
+import {
+  Button,
+  ButtonBase,
+  makeStyles,
+  Typography,
+  useMediaQuery,
+} from "@material-ui/core";
 import background from "resources/background.png";
 import title from "resources/title.png";
 import { fetchVideos } from "redux/VideosReducer";
@@ -18,6 +24,9 @@ const TrailersStyles = makeStyles((theme) => ({
     backgroundRepeat: `no-repeat`,
     backgroundSize: "cover",
     backgroundColor: "#1D1A1A",
+    "@media(max-width: 600px)": {
+      paddingTop: "48px",
+    },
   },
   menu: {
     display: "flex",
@@ -34,6 +43,9 @@ const TrailersStyles = makeStyles((theme) => ({
     background: "linear-gradient(90deg, black, transparent)",
     height: "100vh",
     padding: "12px 0 12px 12px",
+    "@media(max-width: 600px)": {
+      height: "calc(100vh - 48px)",
+    },
   },
   buttonContainer: {
     display: "flex",
@@ -59,10 +71,37 @@ const TrailersStyles = makeStyles((theme) => ({
     "@media (min-width: 600px)": {
       gridTemplateColumns: "auto auto",
     },
+    "@media(max-width: 600px)": {
+      height: "calc(100vh - 48px - 24px)",
+    },
   },
   trackY: {
     width: "5px !important",
     backgroundColor: `${theme.palette.primary.main} !important`,
+  },
+  topBar: {
+    color: theme.palette.primary.main,
+    position: `absolute`,
+    height: `48px`,
+    width: `100%`,
+    backgroundColor: `#1D1A1A`,
+    zIndex: `2`,
+    marginBottom: `48px`,
+    display: `flex`,
+    alignItems: `center`,
+    padding: `0 12px`,
+    borderBottom: `solid 1px currentColor`,
+    top: 0,
+    "@media(min-width: 601px)": {
+      display: "none",
+    },
+    justifyContent: "space-between",
+  },
+
+  logout: {
+    color: theme.palette.primary.main,
+    textDecoration: "underline",
+    padding: "0 12px",
   },
 }));
 const Trailers = () => {
@@ -97,9 +136,18 @@ const Trailers = () => {
   useEffect(() => {
     dispatch(fetchVideos());
   }, [dispatch]);
+
+  const large = useMediaQuery("(min-width:600px)");
+
   return (
     <div className={styles.main}>
-      <div className={styles.menu}>
+      <div className={styles.topBar} hidden={large}>
+        <Typography>Witcher 3 Showcase</Typography>
+        <ButtonBase className={styles.logout}>
+          <Typography>Logout</Typography>
+        </ButtonBase>
+      </div>
+      <div className={styles.menu} style={{ display: large ? "" : "none" }}>
         <img
           className={styles.image}
           src={title}
